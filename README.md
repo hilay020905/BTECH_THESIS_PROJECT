@@ -1,8 +1,14 @@
 # Phase 1 – Graph Reproduction
 
-This phase focuses on reproducing the graphs from the reference research paper using the open-source **RevSCA-2.0** tool.
+## Overview
 
-## Reproduced Graphs
+Phase 1 focuses on reproducing the graphs presented in the reference research paper.
+
+The paper does not explicitly describe the complete process used to generate these graphs. By examining the references provided in the paper, the open-source **RevSCA-2.0** tool was identified as one of the cited resources.
+
+The tool was explored and used to reproduce the reported results and generate the corresponding graphs. The scripts and supporting files used for the reproduction are included in this directory.
+
+## Reproduced Results
 
 ### Figure 1
 ![Figure 1 Reproduction](GRAPH/figure1_reproduction.png)
@@ -10,18 +16,11 @@ This phase focuses on reproducing the graphs from the reference research paper u
 ### Comparison
 ![Comparison](GRAPH/COMPARISON.png)
 
-### Case 2
-![2 Non-Trivial](GRAPH/2_nontrivial.png)
-![2 Trivial](GRAPH/2_trivial.png)
+### Additional Results
+![Results](GRAPH/2_nontrivial.png)
+![Results](GRAPH/3_nontrivial.png)
+![Results](GRAPH/4_nontrivial.png)
 
-### Case 3
-![3 Non-Trivial](GRAPH/3_nontrivial.png)
-![3 Trivial](GRAPH/3_trivial.png)
+## Tool Used
 
-### Case 4
-![4 Non-Trivial](GRAPH/4_nontrivial.png)
-![4 Trivial](GRAPH/4_trivial.png)
-
----
-
-**Tool used:** [RevSCA-2.0](https://github.com/amahzoon/RevSCA-2.0)
+[RevSCA-2.0](https://github.com/amahzoon/RevSCA-2.0)
