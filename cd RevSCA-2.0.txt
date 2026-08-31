@@ -1,0 +1,6 @@
+cd RevSCA-2.0
+chmod +x revsca
+./revsca      
+./revsca Benchmarks/unsigned_multipliers/16bit-SP-WT-CL.aig out.txt -u
+cat out.txt
+./revsca Benchmarks/unsigned_multipliers/64bit-SP-DT-LF.aig out64.txt -u
