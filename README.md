@@ -6,3 +6,8 @@ $VERILATOR_ROOT/bin/verilator_bin --binary --timing --coverage --top-module tb_m
 
 ./obj_dir/Vtb_maj_adders_cov
 ```
+
+For BDD Used 
+```
+python3 -B *.py
+```
