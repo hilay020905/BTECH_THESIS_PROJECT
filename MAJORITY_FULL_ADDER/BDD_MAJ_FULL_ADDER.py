@@ -167,4 +167,4 @@ if __name__ == "__main__":
     else:
         miss = [f for f in ("MAJ_FULL_ADDER.v", "MAJ_RCA_PARAM.v") if not os.path.exists(f)]
         if miss: sys.exit(f"Missing file(s) in {os.getcwd()}: {', '.join(miss)}")
-        scaling_table(lambda n: yosys_aig("MAJ_FULL_ADDER.v MAJ_RCA_PARAM.v", "maj_rca", n), [int(x) for x in args] or [2, 4, 8, 16, 32, 64, 128, 256, 512,1024])
+        scaling_table(lambda n: yosys_aig("MAJ_FULL_ADDER.v MAJ_RCA_PARAM.v", "maj_rca", n), [int(x) for x in args] or [2, 4, 8, 16, 32, 64, 128, 256, 512])
