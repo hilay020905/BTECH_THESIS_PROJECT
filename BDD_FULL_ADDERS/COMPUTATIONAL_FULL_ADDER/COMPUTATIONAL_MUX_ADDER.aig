@@ -1,0 +1,12 @@
+aig 12 3 0 2 9
+19
+25
+
+
+i0 a
+i1 b
+i2 cin
+o0 sum
+o1 cout
+c
+Generated for COMPUTATIONAL_MUX_ADDER (p=a^b, S=ITE(p,~Ci,Ci), Cout=ITE(p,Ci,A))

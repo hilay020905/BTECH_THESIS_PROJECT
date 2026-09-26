@@ -1,0 +1,22 @@
+aag 12 3 0 2 9
+2
+4
+6
+19
+25
+8 2 5
+10 3 4
+12 9 11
+14 13 7
+16 12 6
+18 15 17
+20 13 6
+22 12 2
+24 21 23
+i0 a
+i1 b
+i2 cin
+o0 sum
+o1 cout
+c
+Generated for COMPUTATIONAL_MUX_ADDER (p=a^b, S=ITE(p,~Ci,Ci), Cout=ITE(p,Ci,A))
