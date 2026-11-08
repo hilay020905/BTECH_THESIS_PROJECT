@@ -1,4 +1,4 @@
-# BSCV: Polynomial Formal Verification of Parallel Prefix Adders
+Polynomial Formal Verification of Parallel Prefix Adders
 
 BDD–SCA co-verification of 16-bit **Kogge–Stone (KSA)**, **Brent–Kung (BKA)** and **Sklansky (SA)** adders, built on CUDD.
 
